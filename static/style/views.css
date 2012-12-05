@@ -1,0 +1,368 @@
+/*  Views  */
+#views-loading {
+    color: #666;
+}
+/********************** Top pane of Edit View Now moved to the*************************/
+#top-pane {
+    padding:0;
+	background:none;
+}
+#column-container {
+    background:none;
+}
+/* Configure blockinstance */
+.blockinstance {
+    padding: 10px 10px 20px 10px;
+    background: #fff;
+    box-shadow: 0 0 10px #dadada;
+    -moz-box-shadow: 0 0 10px #dadada;
+    -webkit-box-shadow: 0 0 10px #dadada;
+}
+.blockinstance.configure {
+      border: 0px solid #eee;
+      background: #fff;
+    margin-top:30px;
+ }
+.blockinstance-controls input, 
+.blockinstance-controls, 
+input.submit, 
+.blockinstance-controls, 
+input.cancel {
+    height:auto;
+    width:auto;    
+}
+.blockinstance-header {
+    width:auto;
+    margin:3px 0;
+    padding:5px 10px;
+}
+.blockinstance-header h4, .blockinstance-header h4 a {
+    color:#660000;
+    border:0;
+}
+.blockinstance-header h4 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #bfbfbf;
+}
+#center {
+	color: #999999;
+}
+/* Remove background for image blocks for neatness */
+div.bt-image, div.bt-externalvideo {
+    background: none !important;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    -o-box-shadow:none;
+}
+.bt-image img, .bt-externalvideo iframe {
+    box-shadow: 0 0 10px 0px #555;
+    -moz-box-shadow: 0 0 10px 0px #555;
+    -webkit-box-shadow: 0 0 10px 0px #555;
+}
+/* The tabs that allow you to select a blocktype category */
+#category-list {
+    margin: 0;
+}
+
+#category-list ul {
+
+}
+#category-list li {
+    line-height: 25px;
+    margin: 0;
+    color: #600;
+}
+#page #bottom-pane {
+    border: 0px solid #ccc;
+}
+
+#category-list li a,
+#category-list li a:link,
+#category-list li a:visited,
+#category-list li a:active {
+    color: #600;
+    padding: 5px 12px 6px 10px;
+    height: 25px;
+	background:none;
+}
+#category-list li a:hover {
+    color: #600;
+	background:rgba(244,244,234,0.5);
+}
+#category-list li.current a,
+#category-list li.current a:link,
+#category-list li.current a:visited,
+#category-list li.current a:active {
+    background: transparent url(../images/tabs-over-bg.gif) no-repeat right top;
+    padding: 5px 12px 6px 10px;
+    padding-bottom:8px;
+}
+
+
+
+/******************* Between Panes **************************************/
+#layout-link {
+    background: url(../images/icon-change.gif) no-repeat left center;
+    padding-left: 1.5em;
+    padding-top: 1px;
+    font-weight: bold;
+}
+#layout-link.disabled {
+    color: #aaa;
+    cursor: default;
+}
+#layout-link.disabled:hover {
+    text-decoration: none;
+}
+#middle-pane {
+    background: none;
+}
+
+/********************** Bottom pane of Edit View *************************/
+#page #bottom-pane {
+    padding: 0 10px 10px 10px;
+    background: none;
+} 
+/* Disabling this because the string is irrelevant now */
+#blocksinstruction {
+}
+/* The panel that contains the blocktype icons */
+/*********************** Blocktype List ***********************/
+#blocktype-list {
+    border:0;
+    padding:0px 0px;
+    margin:0;
+	background:none;
+
+}
+.blocktype-radio {
+
+}
+
+#noblocks {
+    color: #666;
+}
+#bottom-pane {
+	border: none;
+}
+
+.blocktype {
+    padding: 1px;
+    margin:1px;
+}
+/* header*/
+.blocktype img {
+    margin:0;
+}
+.blockinstance-header h4 a,
+.blockinstance-header h4 a:link,
+.blockinstance-header h4 a:visited,
+.blockinstance-header h4 a:active {
+    text-decoration: none;
+	color: #1E6297;
+}
+
+
+#blocktype-list li {
+    margin: 0;
+    text-align:center;
+    white-space:normal;
+    list-style:none;
+}
+.blockinstance-header h4 a:hover {
+	color: #267bbd;
+}
+#blocktype-list li:hover {
+    line-height:1.4em;
+    margin: 0;
+    text-align:center;
+    white-space:normal;
+    list-style:none;
+}
+#blocktype-list li:hover div.blocktype img {
+	
+  -webkit-transform: rotate(7.5deg);  
+     -moz-transform: rotate(7.5deg);  
+      -ms-transform: rotate(7.5deg);  
+       -o-transform: rotate(7.5deg);  
+          transform: rotate(7.5deg);
+             filter: progid:DXImageTransform.Microsoft.Matrix(
+                     M11=0.9914448613738104, M12=-0.13052619222005157,M21=0.13052619222005157, M22=0.9914448613738104, sizingMethod='auto expand');
+               zoom: 1;
+
+}
+#blocktype-list .blocktype h4 {
+    padding:0px;
+}
+
+
+#block-placeholder {
+    border: 2px dashed #222 !important;
+    margin-bottom: 2px;
+}
+
+
+/* Wall */
+.wallpost {
+    background-color: #F8FBFD;
+}
+
+/* tabs for the artefact chooser */
+ul.artefactchooser-tabs {
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 12px !important;
+    background: url(../images/tabs-bg.gif) repeat-x left top;
+    height: 25px;
+    padding-left: 1em !important;
+}
+ul.artefactchooser-tabs li {
+    line-height: 25px;
+    margin: 0 !important;
+    float: left;
+    color: #1E6297 !important;
+}
+ul.artefactchooser-tabs li a,
+ul.artefactchooser-tabs li a:link,
+ul.artefactchooser-tabs li a:visited,
+ul.artefactchooser-tabs li a:active {
+    background: transparent url(../images/tabs-divider.gif) no-repeat right top;
+    color: #660000 !important;
+    padding: 5px 12px 6px 10px;
+    height: 25px;
+}
+ul.artefactchooser-tabs li a:hover {
+    color: #7E7327 !important;
+}
+ul.artefactchooser-tabs li.current a,
+ul.artefactchooser-tabs li.current a:link,
+ul.artefactchooser-tabs li.current a:visited
+ul.artefactchooser-tabs li.current a:active {
+    background: transparent url(../images/tabs-over-bg.gif) no-repeat right top;
+    color: #1E6297 !important;
+    padding: 5px 12px 6px 10px;
+    height: 25px;
+}
+ul.artefactchooser-tabs li.current a:hover {
+}
+ul.artefactchooser-subtabs {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+ul.artefactchooser-subtabs li {
+  padding: 0;
+  margin: 0 3px 0 0 !important;
+  border-right: 0;
+}
+ul.artefactchooser-subtabs li a,
+ul.artefactchooser-subtabs li a:link,
+ul.artefactchooser-subtabs li a:visited,
+ul.artefactchooser-subtabs li a:active {
+  text-decoration: none;
+  padding: .25em .5em;
+  background: #F3F7EC;
+}
+ul.artefactchooser-subtabs li a:hover {
+	text-decoration: none;
+}
+ul.artefactchooser-subtabs li.current a,
+ul.artefactchooser-subtabs li.current a:link,
+ul.artefactchooser-subtabs li.current a:visited,
+ul.artefactchooser-subtabs li.current a:active {
+  color: #333;
+  font-weight: bold;
+  background: #DDD;
+}
+ul.artefactchooser-subtabs li.current a:hover {
+	text-decoration: none;
+}
+
+#artefactchooser-body {
+    background: #F5F9FC;
+}
+
+
+/* table */
+.maharatable thead th {
+    color: #186194;
+}
+
+
+.plan_incomplete td {
+	background: #e9f0f5;
+}
+
+/* View Page footer menu */
+
+/* views */
+.feedback {
+	background: url(../images/feedback.gif) no-repeat left center;
+	padding-left: 20px;
+}
+.objection {
+	background: url(../images/objectionable.gif) no-repeat left center;
+	padding-left: 20px;
+}
+.print {
+	background: url(../images/icon-print.gif) no-repeat left center;
+	padding-left: 20px;
+}
+.watchlist {
+	background: url(../images/watchlist.gif) no-repeat left center;
+	padding-left: 20px;
+}
+#feedback_pagination {
+    background:none;
+}
+/* Collection navigation */
+
+ul.colnav li a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+    -moz-transition: all 0.2s ease-in-out; 
+    -webkit-transition: all 0.2s ease-in-out;
+    -webkit-transform: rotate(0deg) scale(1);
+    -moz-transform:  rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+	font-size:17px;
+}
+ul.colnav li a:hover, li.selected span {
+    -moz-transition: all 0.2s ease-in-out; 
+    -webkit-transition: all 0.2s ease-in-out;
+    -webkit-transform: rotate(-2deg) scale(1.1);
+    -moz-transform:  rotate(-2deg) scale(1.1);
+    transform: rotate(-2deg) scale(1.1);
+    box-shadow:0px 0px 4px #000000;
+    -moz-box-shadow:0px 0px 4px #000000;
+    -webkit-box-shadow: 0px 0px 6px #000000;
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    font-weight: bold;
+    text-decoration:none;
+}
+li.selected span {
+    -moz-transition: all 0.2s ease-in-out; 
+    -webkit-transition: all 0.2s ease-in-out;
+    -webkit-transform: rotate(2deg) scale(1.1);
+    -moz-transform:  rotate(2deg) scale(1.1);
+    transform: rotate(2deg) scale(1.1);
+    position:relative;
+    top:20px;
+	font-size:17px;
+	z-index: 200;
+}
+.blockinstance-content .groupviewsection h5 {
+	color: #999;
+}
+
+.center, .center a {
+	color: #ffffff;
+}
+#blockinstruction {
+	background: #ffffff;
+}
+.viewfooter {
+	border:0px solid #eee;
+}
